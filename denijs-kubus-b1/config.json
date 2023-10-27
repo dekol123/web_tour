@@ -1,0 +1,227 @@
+{
+    "views": [
+        {
+            "name": "image0000",
+            "actor": "CineCameraActor01",
+            "views": [
+                "CineCameraActor02"
+            ],
+            "position": {
+                "x": 505,
+                "y": 160,
+                "z": 25
+            },
+            "look": {
+                "x": 504,
+                "y": 160,
+                "z": 25
+            }
+        },
+        {
+            "name": "image0006",
+            "actor": "CineCameraActor02",
+            "views": [
+                "CineCameraActor01",
+                "CineCameraActor03",
+                "CineCameraActor04"
+            ],
+            "position": {
+                "x": 400,
+                "y": 160,
+                "z": 105
+            },
+            "look": {
+                "x": 399,
+                "y": 160,
+                "z": 105
+            }
+        },
+        {
+            "name": "image0012",
+            "actor": "CineCameraActor03",
+            "views": [
+                "CineCameraActor02",
+                "CineCameraActor09"
+            ],
+            "position": {
+                "x": 360,
+                "y": 160,
+                "z": 220
+            },
+            "look": {
+                "x": 359,
+                "y": 160,
+                "z": 220
+            }
+        },
+        {
+            "name": "image0018",
+            "actor": "CineCameraActor04",
+            "views": [
+                "CineCameraActor02",
+                "CineCameraActor05"
+            ],
+            "position": {
+                "x": 270,
+                "y": 160,
+                "z": 80
+            },
+            "look": {
+                "x": 269,
+                "y": 160,
+                "z": 80
+            }
+        },
+        {
+            "name": "image0024",
+            "actor": "CineCameraActor05",
+            "views": [
+                "CineCameraActor04",
+                "CineCameraActor06"
+            ],
+            "position": {
+                "x": 150,
+                "y": 160,
+                "z": -50
+            },
+            "look": {
+                "x": 149,
+                "y": 160,
+                "z": -50
+            }
+        },
+        {
+            "name": "image0030",
+            "actor": "CineCameraActor06",
+            "views": [
+                "CineCameraActor05",
+                "CineCameraActor07"
+            ],
+            "position": {
+                "x": -10,
+                "y": 160,
+                "z": 10
+            },
+            "look": {
+                "x": -11,
+                "y": 160,
+                "z": 10
+            }
+        },
+        {
+            "name": "image0036",
+            "actor": "CineCameraActor07",
+            "views": [
+                "CineCameraActor06",
+                "CineCameraActor08"
+            ],
+            "position": {
+                "x": -175,
+                "y": 160,
+                "z": 10
+            },
+            "look": {
+                "x": -176,
+                "y": 160,
+                "z": 10
+            }
+        },
+        {
+            "name": "image0042",
+            "actor": "CineCameraActor08",
+            "views": [
+                "CineCameraActor07"
+            ],
+            "position": {
+                "x": -330,
+                "y": 160,
+                "z": 30
+            },
+            "look": {
+                "x": -331,
+                "y": 160,
+                "z": 30
+            }
+        },
+        {
+            "name": "image0048",
+            "actor": "CineCameraActor09",
+            "views": [
+                "CineCameraActor03",
+                "CineCameraActor10"
+            ],
+            "position": {
+                "x": 115,
+                "y": 160,
+                "z": 260
+            },
+            "look": {
+                "x": 114,
+                "y": 160,
+                "z": 260
+            }
+        },
+        {
+            "name": "image0054",
+            "actor": "CineCameraActor10",
+            "views": [
+                "CineCameraActor09"
+            ],
+            "position": {
+                "x": -80,
+                "y": 160,
+                "z": 420
+            },
+            "look": {
+                "x": -81,
+                "y": 160,
+                "z": 420
+            }
+        }
+    ],
+    "variants": [
+        {
+            "path": "1",
+            "title": ""
+        }
+    ],
+    "defaultVariantIndex": 0,
+    "defaultViewIndex": 0,
+    "interestPoints": [],
+    "settings": {
+        "sizes": [
+            {
+                "resolution": 640,
+                "prefix": "sm"
+            },
+            {
+                "resolution": 768,
+                "prefix": "md"
+            },
+            {
+                "resolution": 1024,
+                "prefix": "lg"
+            },
+            {
+                "resolution": 1440,
+                "prefix": "xl"
+            },
+            {
+                "resolution": 2048,
+                "prefix": "xxl"
+            }
+        ],
+        "formats": [
+            "jpg"
+        ]
+    },
+    "customNavigationPage": true,
+    "loaderSettings": {
+        "color": "#003859",
+        "backgroundColor": "#0097B0"
+    },
+    "userFont": {
+        "title": "Aller",
+        "url": "fonts/Aller.ttf"
+    }
+}
